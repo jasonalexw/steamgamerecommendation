@@ -1,5 +1,5 @@
 # 🎮 Steam Matchmaker - Kelompok 12
-**ETS Data Mining | Statistika ITS 2026**
+**ETS Data Mining | Sains Data ITS 2026**
 
 ## Deskripsi Proyek
 Aplikasi ini menggunakan algoritma **Content-Based Filtering** untuk memberikan rekomendasi game berdasarkan kesamaan konten. Kami menggunakan teknik **TF-IDF Vectorization** dan **Log Transformation** pada data popularitas untuk meningkatkan akurasi rekomendasi.
