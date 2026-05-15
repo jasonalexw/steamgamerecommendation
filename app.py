@@ -77,9 +77,7 @@ def load_assets():
     
     # Perbaikan Performa: Log Transformation pada Popularitas (Score Weight)
     # Ini menangani data yang skewed agar game besar tidak terlalu mendominasi
-    df['norm_popularity'] = np.log1p(df['score_weight'])
-    df['norm_popularity'] = (df['norm_popularity'] - df['norm_popularity'].min()) / \
-                             (df['norm_popularity'].max() - df['norm_popularity'].min())
+    df['norm_popularity'] = df['score_weight']
     
     # Load data mentah untuk deskripsi lengkap
     try:
